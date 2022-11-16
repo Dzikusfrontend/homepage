@@ -1,0 +1,1 @@
+# Patryk Soliński - moja strona
