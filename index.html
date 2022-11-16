@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <h1 class="header__name">Patryk Soliński</h1>
+    </header>
+
+
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#aboutmeSection">O mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#interestsSection">Zainteresowania</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#favoritemovieSection">Ulubione filmy</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#contactSection">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section" id="aboutmeSection">
+            <h2 class="section__header">O mnie </h2>
+            <a href="https://imgbb.com/"><img class="section__photo" src="https://i.ibb.co/dpZVrWh/Patryk-Solinski.jpg"
+                    alt="Patryk-Solinski"></a>
+            <p class="section__paragraph">Jestem studentem Politechniki Krakowskiej Wydziału Mechanicznego. </p>
+        </section>
+        <section class="section" id="interestsSection">
+            <h2 class="section__header">Zainteresowania</h2>
+            <p class=" section__paragraph section__paragraph--left">Moim zaintersowaniami są <span
+                    class="section__interestsSpan"> motoryzacja
+                </span> i <span class="section__interestsSpan">projektowanie w programch CAD 3D</span>. Od dziecka
+                interesowałem sie
+                samochodami i jak są zbudowane. Pasją do modelowania 3D zaraziłem się na stdiach tworząc projekty na
+                zajęcia.</p>
+        </section>
+
+        <section class="section" id="favoritemovieSection">
+            <table class="table">
+                <caption class="table__caption "> Moje ulubione filmy</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__header " scope="col">Tytuł</th>
+                    <th class="table__cell table__header " scope="col">Reżyser</th>
+                    <th class="table__cell table__header " scope="col">Data premiery</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header " scope="row">Incepcja</th>
+                    <td class="table__cell">Chrisstoper Nolan</td>
+                    <td class="table__cell">8 lipca 2010</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header " scope="row">Niezawistna Ósenka</th>
+                    <td class="table__cell">Quentin Tarantino</td>
+                    <td class="table__cell">7 grudnia 2015</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header " scope="row">Pulp Fiction</th>
+                    <td class="table__cell">Quentin Tarantino</td>
+                    <td class="table__cell ">21 maja 1994</td>
+                </tr>
+
+            </table>
+        </section>
+        <section class="section" id="contactSection">
+            <h2 class="section__header section__header--left">Kontakt</h2>
+            <p class="section__item">Numer telefonu: <a class="section__link" href="tel:+48.668745862">668 745 862</a>
+            </p>
+            <p class="section__item">Email:<a class="section__link" href="mailto:solinskipatryk8@gmail.com">
+                    solinskipatryk8@gmail.com</a></p>
+            <p class="section__item">Sprawdź również <a class="section__link" rel="noreferrer noopener" target="_blank"
+                    href="https://www.linkedin.com/in/patryk-soli%C5%84ski-486115238/"> mojego Linkedin
+                    (otwierta się w nowej karcie)</a></p>
+        </section>
+        <section class="section">
+            <h2 class="section__header">Zmień motyw strony</h2>
+            <button class="js-section__button">Włącz <span class="themeName">jasny</span> motyw</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__paragraph">©Copyright 2050 by Patryk Soliński. All rights reversed.</p>
+    </footer>
+
+</body>
+
+</html>

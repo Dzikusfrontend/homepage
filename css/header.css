@@ -1,0 +1,8 @@
+.header {
+    text-align: center;
+}
+
+.header__name {
+    font-size: 40px;
+    color: #c5af08f0;
+}
