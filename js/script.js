@@ -3,7 +3,7 @@
         console.log("Witaj! na mojej stronie.")
     }
 
-    const onChangeBackgroundClick = () => {
+    const toggleBackground = () => {
         const body = document.querySelector(".js-body");
         const themeName = document.querySelector(".themeName");
         body.classList.toggle("white");
@@ -12,7 +12,7 @@
 
     const init = () => {
         const button = document.querySelector(".js-section__button");
-        button.addEventListener("click", onChangeBackgroundClick);
+        button.addEventListener("click", toggleBackground);
 
         welcome();
     }
