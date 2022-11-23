@@ -1,9 +1,20 @@
-console.log("Witaj! na mojej stronie.")
-let button = document.querySelector(".js-section__button");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".themeName");
+{
+    const welcome = () => {
+        console.log("Witaj! na mojej stronie.")
+    }
 
-button.addEventListener("click", () => {
-    body.classList.toggle("white");
-    themeName.innerText = body.classList.contains("white") ? "ciemny" : "jasny";
-});
+    const onChangeBackgroundClick = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".themeName");
+        body.classList.toggle("white");
+        themeName.innerText = body.classList.contains("white") ? "ciemny" : "jasny";
+    };
+
+    const init = () => {
+        const button = document.querySelector(".js-section__button");
+        button.addEventListener("click", onChangeBackgroundClick);
+
+        welcome();
+    }
+    init();
+}
