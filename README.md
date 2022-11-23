@@ -6,7 +6,7 @@
 This ii my first project as a Frontend Develeper.
 ## How it works
 
-## Technologies ussed in the homepage:
+## Technologies used in the homepage:
 - HTML
 - CSS
 - Normalize
