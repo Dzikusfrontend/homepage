@@ -4,7 +4,7 @@
 [Visit my Homepage]( https://patryk-solinski.github.io/homepage/)
 
 ## Description
-This is my first project as a Frontend Develeper.rom my Homepage you can learn more about me, my favorite movies and my interests. You can also find on tehe page contact to me.
+This is my first project as a Frontend Developer.rom my Homepage you can learn more about me, my favorite movies and my interests. You can also find on tehe page contact to me.
 
 ## How it works
 
