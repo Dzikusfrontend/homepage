@@ -11,7 +11,7 @@
     };
 
     const init = () => {
-        const button = document.querySelector(".js-section__button");
+        const button = document.querySelector(".js-button");
         button.addEventListener("click", toggleBackground);
 
         welcome();
