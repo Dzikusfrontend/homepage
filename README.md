@@ -19,3 +19,4 @@ This is my first project as a Frontend Developer.rom my Homepage you can learn m
 - ES6+ features
 - GIT
 - Markdown
+- Flex
