@@ -44,7 +44,7 @@
 }
 
 .section__link {
-    color: crimson;
+    color: hsl(348deg 83% 35%);
     text-decoration: none;
     font-size: 15px;
     border-radius: 15px;
@@ -53,4 +53,9 @@
 .section__item{
     color:#ffffff;
     text-align: left;
+}
+.section__link:hover{
+    color: crimson;
+    text-decoration: underline;
+    
 }
