@@ -8,7 +8,7 @@ This is my first project as a Frontend Developer. My Homepage you can learn more
 
 ## How it works
 
-![Homepage](https://github.com/Patryk-Solinski/homepage/blob/master/images/homepage.gif?raw=true)
+![Homepage](https://github.com/Patryk-Solinski/homepage/blob/master/images/homepage2.gif?raw=true)
 
 ## Technologies used in the homepage:
 - HTML
